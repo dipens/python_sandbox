@@ -3,6 +3,7 @@ import datetime
 from datetime import date
 import time
 from time import time
+from camelcase import CamelCase
 
 
 today = date.today()
@@ -10,3 +11,8 @@ print(today)
 
 timestamp = time()
 print(timestamp)
+
+c = CamelCase()
+
+
+print(c.hump('hello world'))
