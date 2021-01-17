@@ -22,3 +22,4 @@ fruits_set.add('Grape')
 fruits_set.discard('Oranges')
 
 print(fruits_set)
+print(fruits_set)
