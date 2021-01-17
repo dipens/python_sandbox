@@ -13,3 +13,27 @@ print('My name is {name} and I am {age}'.format(name=name, age=age))
 
 print(f'Hello my name is {name} and I am {age}')
 # String Methods
+s = 'helloworld'
+print(s.capitalize())
+
+
+print(s.upper())
+
+print(s.lower())
+
+
+print(s.swapcase())
+
+print(len(s))
+
+
+print(s.replace('world', 'everyone'))
+
+sub = 'o'
+print(s.count(sub))
+print(s.endswith('d'))
+print(s.split(','))
+print(s.find('z'))
+print(s.isalnum())
+print(s.isalpha())
+print(s.isnumeric())
