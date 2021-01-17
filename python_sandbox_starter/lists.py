@@ -23,4 +23,6 @@ fruits.reverse()
 fruits.sort()
 print(fruits)
 fruits.sort(reverse=True)
+
+fruits[0] = 'blueberries'
 print(fruits)
