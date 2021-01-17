@@ -20,5 +20,5 @@ print('Apples' in fruits_set)
 # Add to set
 fruits_set.add('Grape')
 fruits_set.discard('Oranges')
-fruits_set.clear()
+
 print(fruits_set)
